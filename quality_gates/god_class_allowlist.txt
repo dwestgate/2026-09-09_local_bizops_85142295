@@ -1,0 +1,63 @@
+# God-class tracked-debt register.
+#
+# Format: <repo-relative-path>::<class-name>  # legacy: 2026-09-03 W2-1
+# Every entry is an earned exemption for the exact class instance that exceeds
+# the gate thresholds. Bare class names are intentionally forbidden: another
+# class with the same name must be measured independently and is never covered
+# by this register. Inline comments and blank lines are ignored.
+#
+# Entries were re-measured during D-3.1 on 2026-09-03. The migration removed
+# clean and dead bare-name entries; removing an entry remains remediation
+# progress. Do not add entries without the documented skeptical review.
+
+ananta/src/ananta/config/core_schemas.py::CoreSchemaDefinitions  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/actions/action_execution_engine.py::ActionExecutionEngine  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/actions/action_factory.py::ActionFactory  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/actions/action_manager.py::ActionManager  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/actions/action_processor.py::ActionProcessor  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/actions/action_queue_poller.py::ActionQueuePoller  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/config/config_provider.py::ConfigProvider  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/config/environment_config.py::EnvironmentConfig  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/event_orchestrator.py::EventOrchestrator  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/orchestration/action_coordinator.py::ActionCoordinator  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/orchestration/feature_flags.py::OrchestrationFeatureFlags  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/orchestration/managers/process_registry_manager.py::ProcessRegistryManager  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/orchestration/service_manager.py::ServiceManager  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/process_registry/validation_manager.py::ProcessValidationManager  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/prompts/stages/api.py::APIStage  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/prompts/stages/context.py::ContextStage  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/state/async_job_manager.py::AsyncJobManager  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/core/templates/template_functions.py::TemplateFunctionRegistry  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/interfaces/memory_service_interface.py::MemoryServiceInterface  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/interfaces/state_management_interface.py::StateManagementInterface  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/interfaces/state_service_protocol.py::StateServiceProtocol  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/interfaces/thinking_provider_interface.py::ThinkingProvider  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/llm/agent_messaging/repository.py::AgentMessagingRepository  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/llm/agent_messaging/service.py::AgentMessagingService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/platform/new_template_engine.py::NewTemplateEngine  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/blob_storage_service/__init__.py::BlobStorageService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/context_management/service.py::ContextManagementService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/discovery_service/service.py::DiscoveryService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/io_interface_service/__init__.py::IOInterfaceService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/lifecycle_management_service/interfaces/public.py::LifecycleManagementAPI  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/lifecycle_management_service/service.py::LifecycleManagementService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/memory_service/interfaces/public.py::MemoryServiceAPI  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/state_service/__init__.py::StateService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/thinking_service/__init__.py::ThinkingService  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/thinking_service/interfaces/public.py::ThinkingServiceAPI  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/vault_service/interfaces/public.py::VaultServiceAPI  # legacy: 2026-09-03 W2-1
+ananta/src/ananta/services/vault_service/vault_service_proxy.py::VaultServiceProxy  # legacy: 2026-09-03 W2-1
+ananta/tests/llm/session_ledger/_stub_state_service.py::StubStateService  # legacy: 2026-09-03 W2-1
+plugins/actr_memory_plugin/src/actr_memory_plugin/backend.py::ACTRMemoryBackend  # legacy: 2026-09-03 W2-1
+plugins/actr_memory_plugin/src/actr_memory_plugin/plugin.py::ACTRMemoryPlugin  # legacy: 2026-09-03 W2-1
+plugins/agent_messaging_plugin/src/agent_messaging_plugin/mcp_bridge/forwarder.py::Forwarder  # legacy: 2026-09-03 W2-1
+plugins/agent_messaging_plugin/src/agent_messaging_plugin/platform_surface.py::PlatformSurface  # legacy: 2026-09-03 W2-1
+plugins/agent_messaging_plugin/src/agent_messaging_plugin/plugin.py::AgentMessagingPlugin  # legacy: 2026-09-03 W2-1
+plugins/default_inference_plugin/src/default_inference_plugin/plugin.py::Plugin  # legacy: 2026-09-03 W2-1
+plugins/default_thinking_plugin/src/default_thinking_plugin/plugin.py::DefaultThinkingPlugin  # legacy: 2026-09-03 W2-1
+plugins/default_thinking_plugin/src/default_thinking_plugin/wbs_generation.py::_WBSBuilder  # legacy: 2026-09-03 W2-1
+plugins/macos_self_deployment_plugin/src/macos_self_deployment_plugin/plugin.py::MacosSelfDeploymentPlugin  # legacy: 2026-09-03 W2-1
+plugins/macos_vault_plugin/src/macos_vault_plugin/plugin.py::MacosVaultPlugin  # legacy: 2026-09-03 W2-1
+plugins/postgres_state_management_plugin/src/postgres_state_management_plugin/postgres_backend/provider.py::PostgresProvider  # legacy: 2026-09-03 W2-1
+plugins/rds_postgres_state_management_plugin/src/rds_postgres_state_management_plugin/postgres_backend/provider.py::PostgresProvider  # legacy: 2026-09-03 W2-1
+plugins/secrets_manager_vault_plugin/src/secrets_manager_vault_plugin/plugin.py::SecretsManagerVaultPlugin  # legacy: 2026-09-03 W2-1

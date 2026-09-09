@@ -1,0 +1,15 @@
+{
+  "ancestry": [],
+  "bundle": {
+    "name": "macos-bizops",
+    "platform": "local"
+  },
+  "lineage": [],
+  "manifest_sha256": "6568475bc5c6446aaed7a34bca754342367751c20c9ccde7dd3158697224714b",
+  "origin_id": "31bfa93c-fe20-4988-b019-f8186684e88e",
+  "schema_version": 1,
+  "seed_id": "3bfb661a-14f9-5a9c-8f7f-cf7f31e45064",
+  "signature": null,
+  "source_commit": "4098de4f120a112bca28a47e1030c5993140b6be",
+  "source_date": "2026-09-09T14:48:45-07:00"
+}
